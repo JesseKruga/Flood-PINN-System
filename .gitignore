@@ -1,0 +1,15 @@
+# --- Ignore Sensitive Data ---
+data/
+*.csv
+*.xlsx
+!data/sample_input.csv  # Exception: Do upload the sample
+
+# --- Ignore Deprecated/Old Work ---
+old_model_weights/
+__pycache__/
+.ipynb_checkpoints/
+venv/
+.env
+
+# --- Keep the Plots! ---
+!plots/
