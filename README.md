@@ -9,7 +9,7 @@ To address the severe class imbalance (1:18) inherent in flood datasets, the sys
 ## 🚀 Key Features
 - **Physics-Informed Learning:** Incorporates a custom loss function derived from the water balance equation ($dS/dt = P - E - R$).
 - **Regulated T-SMOTE:** Implements a custom class balancing strategy ($\alpha=0.4, k=3$) that restored Low-Risk precision to >95% while maintaining >70% Recall for critical flood events.
-- **Spatial Generalization:** Validated on distinct geographical regions (Isoko South, Isoko North, Oshimili North) against their model weights (e.g Oshimilli data was used to validate Isoko South data to get predictions for reported flood occurences date).
+- **Spatial Generalization:** Validated on distinct geographical regions (Isoko South, Isoko North, Oshimili North) against their model weights (e.g Oshimilli data was used to validate Isoko South model to get predictions for reported flood occurences date).
 
 ## 📂 Project Structure
 - `app/`: Deployment source code (Flask API & Streamlit UI).
